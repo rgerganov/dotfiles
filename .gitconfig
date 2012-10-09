@@ -19,3 +19,5 @@
     name = Radoslav Gerganov
     email = rgerganov@gmail.com
 
+[color]
+    ui = true
