@@ -4,6 +4,9 @@
     co = checkout
     br = branch
 
+[core]
+    editor = vim
+
 [diff]
     tool = p4merge
 
