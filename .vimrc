@@ -17,3 +17,6 @@ set title
 colo wombat
 filetype plugin indent on
 
+autocmd BufReadPre *.sc set filetype=python
+
+set grepprg=ack
