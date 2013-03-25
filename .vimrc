@@ -13,6 +13,7 @@ set nocompatible
 set title
 set ignorecase
 set smartcase
+syntax on
 
 colo wombat
 
