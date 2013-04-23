@@ -20,6 +20,7 @@ colo wombat
 filetype plugin indent on
 
 autocmd BufReadPre *.sc set filetype=python
+autocmd BufReadPre *.gradle set filetype=groovy
 
 set grepprg=ack
 execute pathogen#infect()

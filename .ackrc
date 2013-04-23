@@ -1,1 +1,2 @@
 --type-set=scons=.sc
+--type-set=gradle=.gradle
