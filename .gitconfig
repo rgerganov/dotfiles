@@ -14,13 +14,14 @@
     tool = p4merge
 
 [mergetool "p4merge"]
-    path = /opt/bin/p4merge
-    keepBackup = false
+    cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge "$PWD/$BASE" "$PWD/$REMOTE" "$PWD/$LOCAL" "$PWD/$MERGED"
+    keepTemporaries = false
     trustExitCode = false
+    keepBackup = false
 
 [user]
     name = Radoslav Gerganov
-    email = rgerganov@gmail.com
+    email = rgerganov@vmware.com
 
 [color]
     ui = true

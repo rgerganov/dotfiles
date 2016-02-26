@@ -9,6 +9,7 @@ set guioptions-=L
 set incsearch
 set hidden
 set autoindent
+set autochdir
 set nocompatible
 set title
 set ignorecase
@@ -33,3 +34,7 @@ nnoremap gh <C-w>h
 nnoremap gj <C-w>j
 nnoremap gk <C-w>k
 nnoremap gl <C-w>l
+
+" let g:NERDTreeDirArrows=0
+set encoding=utf8
+
