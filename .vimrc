@@ -7,9 +7,9 @@ set guioptions-=T
 set guioptions-=l
 set guioptions-=L
 set incsearch
+set hlsearch
 set hidden
 set autoindent
-set autochdir
 set nocompatible
 set title
 set ignorecase
@@ -38,3 +38,7 @@ nnoremap gl <C-w>l
 " let g:NERDTreeDirArrows=0
 set encoding=utf8
 
+set t_BE=
+
+" directory for swap files
+set directory=~/.vim/swapfiles//
