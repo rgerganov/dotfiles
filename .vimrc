@@ -34,6 +34,7 @@ nnoremap gh <C-w>h
 nnoremap gj <C-w>j
 nnoremap gk <C-w>k
 nnoremap gl <C-w>l
+nnoremap gp <C-w>p
 
 " let g:NERDTreeDirArrows=0
 set encoding=utf8
